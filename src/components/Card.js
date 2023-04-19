@@ -5,11 +5,11 @@ import {useEffect, useState} from 'react'
 export default function Card({ starships }) {
 
   return (
-    <div className='card-container'>
+    
       
-       {starships.map(s => (
-        <div className="card" key={s}>{s}</div>
-       ))} 
-    </div>
+       
+        <div className="card">{starships.name}</div>
+     
+   
   )
 }
